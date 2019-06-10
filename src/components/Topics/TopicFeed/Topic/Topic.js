@@ -3,10 +3,10 @@ import MyStyles from './Topic.css';
 
 const topic = (props) => (
     <div className={MyStyles.Topic}>
-        <div>
-            <img src="../../../../public/images/sloppy-joe.jpg" alt=""/>
+        <div className={MyStyles.Topic2}>
+            <img src={require(`../../../../../src/images/${props.imgSrc}`)} alt=""/>
         </div>
-        <h1>topic</h1>
+        <h1>{props.title}</h1>
     </div>
 );
 
