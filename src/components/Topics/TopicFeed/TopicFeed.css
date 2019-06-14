@@ -1,3 +1,13 @@
-.TopicFeed{
+.TopicFeed {
+    border-bottom: 1px solid #e1e1e1;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 7px 0;
+    white-space: nowrap;
+}
 
+
+
+::-webkit-scrollbar{
+    height: 0 !important;
 }
