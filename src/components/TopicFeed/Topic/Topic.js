@@ -2,7 +2,7 @@ import React from 'react';
 import MyStyles from './Topic.css';
 
 const topic = (props) => {
-    let imgUrl = require(`../../../../../src/images/${props.imgSrc}`);
+    let imgUrl = require(`../../../../src/images/${props.imgSrc}`);
 
     return (
         <div className={MyStyles.Topic}>
@@ -13,7 +13,7 @@ const topic = (props) => {
                 backgroundRepeat: 'no-repeat',
             }}>
             </div>
-            <h1 className={MyStyles.TopicTitle}>{props.title}</h1>
+            <h2 className={MyStyles.TopicTitle}>{props.title}</h2>
         </div>
     )
 

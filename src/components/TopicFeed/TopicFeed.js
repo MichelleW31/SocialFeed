@@ -11,8 +11,8 @@ const topicFeed = (props) => {
     let recArr = props.recipes;
     shuffle(recArr);
 
-    let inRecipes = recArr.slice(0,8).map((recipe, i) =>{
-        console.log(i);
+    //Slice array before mapping so that only 8 featured recipes show.
+    let inRecipes = recArr.slice(0,8).map((recipe) =>{
         return <Topic key={recipe.title} title={recipe.title} imgSrc={recipe.imgPath} />
     });
 
