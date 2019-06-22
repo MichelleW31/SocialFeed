@@ -33,13 +33,19 @@ class App extends Component {
         step: 0
     };
 
+    incrementStep = () => this.setState(() => ({step: 1}));
+
+    back = () => this.setState(() => ({step: 0}));
+
     stateManager = () => {
         const {step} = this.state;
         switch (step) {
             case 0:
                 return <PostFeed recipes={this.state.recipes}/>;
             case 1:
-                return <PostView />;
+                return <PostView back={this.back}/>;
+            default:
+                return <PostFeed recipes={this.state.recipes}/>;
         }
     };
 
@@ -49,7 +55,8 @@ class App extends Component {
           <>
             <Nav />
             <TopicFeed
-                recipes={this.state.recipes} />
+                recipes={this.state.recipes}
+                incrementStep={this.incrementStep}/>
               {this.stateManager()}
           </>
         );

@@ -4,13 +4,9 @@ import MyStyles from './Post.css';
 class Post extends React.Component {
     imgUrl = require(`../../../../src/images/${this.props.recipe.imgPath}`);
 
-    selectPost = () => {
-        console.log(this);
-    };
-
     render() {
         return(
-            <div className={MyStyles.Post} onClick={this.selectPost }>
+            <div className={MyStyles.Post}>
                 <div className={MyStyles.Copy}>
                     <h3 className={MyStyles.Title}>{this.props.recipe.title}</h3>
                     <h4 className={MyStyles.Level}>Level: {this.props.recipe.level}</h4>
@@ -31,6 +27,6 @@ class Post extends React.Component {
         )
 }
 
-};
+}
 
 export default Post;
