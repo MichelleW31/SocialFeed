@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05594e0d-a2ce-42d3-8d8a-edd62cffb630" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Nav/Nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Nav/Nav.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/PostView/PostView.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PostView/PostView.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PostView/PostView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PostView/PostView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TopicFeed/Topic/Topic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopicFeed/Topic/Topic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TopicFeed/TopicFeed.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopicFeed/TopicFeed.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/App.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,11 +30,20 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/PostView/PostView.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+                <state relative-caret-position="604">
+                  <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/components/Nav/Nav.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="30">
+                  <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
                 </state>
               </provider>
             </entry>
@@ -165,8 +169,8 @@
         <option value="$PROJECT_DIR$/src/components/TopicFeed/TopicFeed.js" />
         <option value="$PROJECT_DIR$/src/components/TopicFeed/Topic/Topic.js" />
         <option value="$PROJECT_DIR$/src/components/PostView/PostView.js" />
-        <option value="$PROJECT_DIR$/src/components/Nav/Nav.css" />
         <option value="$PROJECT_DIR$/src/components/PostView/PostView.css" />
+        <option value="$PROJECT_DIR$/src/components/Nav/Nav.css" />
       </list>
     </option>
   </component>
@@ -282,12 +286,12 @@
       <workItem from="1560906638600" duration="6150000" />
       <workItem from="1561084311395" duration="605000" />
       <workItem from="1561125358132" duration="2000" />
-      <workItem from="1561417864147" duration="6489000" />
+      <workItem from="1561417864147" duration="6636000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80636000" />
+    <option name="totallyTimeSpent" value="80783000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="826" extended-state="6" />
@@ -307,7 +311,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.12942779" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.12942779" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -457,17 +461,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Nav/Nav.css">
+    <entry file="file://$PROJECT_DIR$/src/components/PostView/PostView.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        <state relative-caret-position="604">
+          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/PostView/PostView.css">
+    <entry file="file://$PROJECT_DIR$/src/components/Nav/Nav.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        <state relative-caret-position="30">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
         </state>
       </provider>
     </entry>
