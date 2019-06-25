@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/Foodio/static/media/quesadilla.385734c5.jpg"
   },
   {
-    "revision": "003275b127d1798bf836",
-    "url": "/Foodio/static/css/main.4805c99d.chunk.css"
+    "revision": "651ba388fdeec0d4396a",
+    "url": "/Foodio/static/css/main.a19dd2d9.chunk.css"
   },
   {
     "revision": "90983dfa58334929e88f",
     "url": "/Foodio/static/js/runtime~main.82773e0e.js"
   },
   {
-    "revision": "207c757c8eaef969d86c",
-    "url": "/Foodio/static/js/2.d83ae347.chunk.js"
+    "revision": "15d5ea5ad0bf5dd15387",
+    "url": "/Foodio/static/js/2.e985c0c4.chunk.js"
   },
   {
     "revision": "7dd9c7eae0813b5e74bcace0066c9b13",
@@ -48,8 +48,8 @@ self.__precacheManifest = [
     "url": "/Foodio/static/media/pesto-pasta.a9f63c37.jpg"
   },
   {
-    "revision": "003275b127d1798bf836",
-    "url": "/Foodio/static/js/main.7e996e54.chunk.js"
+    "revision": "651ba388fdeec0d4396a",
+    "url": "/Foodio/static/js/main.a9caac2a.chunk.js"
   },
   {
     "revision": "562b9ef89abbfa1d8a10a6176c60edfa",
@@ -96,7 +96,7 @@ self.__precacheManifest = [
     "url": "/Foodio/static/media/veggie-rice.cd02ee31.jpg"
   },
   {
-    "revision": "8c7b25789140b9e06b6806a09338e214",
+    "revision": "655868e8f180db4748853c0c786d4fe4",
     "url": "/Foodio/index.html"
   }
 ];
