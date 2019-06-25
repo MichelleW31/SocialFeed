@@ -1,6 +1,6 @@
 .Nav{
     align-items: center;
-    background-color: #f8f8f8;
+    background-color: #eee;
     border-bottom: 1px solid #e1e1e1;
     display: flex;
     justify-content: space-between;
@@ -9,11 +9,13 @@
 }
 
 .header{
+    color: #467e8d;
     font-family: 'Carter One', cursive;
     font-size: 1.8rem;
 }
 
 .fa_heart, .fa_paper_plane{
+    color: #467e8d;
     font-size: 1.3rem;
     font-weight: 900;
     font-family: "Font Awesome 5 Free";

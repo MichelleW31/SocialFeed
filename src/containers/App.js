@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Nav from '../components/Nav/Nav';
 import TopicFeed from '../components/TopicFeed/TopicFeed';
 import PostFeed from '../components/PostFeed/PostFeed';
+import PostView from '../components/PostView/PostView';
 
 
 
@@ -28,7 +29,31 @@ class App extends Component {
             {title: 'Pesto Pasta', cooktime: '30 minutes', popularity: "10/10", level: "Hard", imgPath: "pesto-pasta.jpg" },
             {title: 'Macaroni', cooktime: '60 minutes', popularity: "6/10", level: "Hard", imgPath: "macaroni.jpg" },
             {title: 'Lettuce Wraps', cooktime: '90 minutes', popularity: "8/10", level: "Hard", imgPath: "lettuce-wraps.jpg" }
-        ]
+        ],
+        step: 0,
+        post: {}
+    };
+
+    incrementStep = () => this.setState(() => ({step: 1}));
+
+    back = () => this.setState(() => ({step: 0}));
+
+    showPost = (post) =>{
+        this.setState({
+            post: post
+        })
+    };
+
+    stateManager = () => {
+        const {step} = this.state;
+        switch (step) {
+            case 0:
+                return <PostFeed recipes={this.state.recipes}/>;
+            case 1:
+                return <PostView post={this.state.post} recipes={this.state.recipes} back={this.back}/>;
+            default:
+                return <PostFeed recipes={this.state.recipes}/>;
+        }
     };
 
 
@@ -37,9 +62,10 @@ class App extends Component {
           <>
             <Nav />
             <TopicFeed
-                recipes={this.state.recipes} />
-            <PostFeed
-                recipes={this.state.recipes}/>
+                recipes={this.state.recipes}
+                incrementStep={this.incrementStep}
+                showPost={this.showPost}/>
+              {this.stateManager()}
           </>
         );
     }

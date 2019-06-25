@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05594e0d-a2ce-42d3-8d8a-edd62cffb630" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/src/components/Nav/Nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Nav/Nav.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PostView/PostView.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PostView/PostView.css" afterDir="false" />
+>>>>>>> nav-functionality
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,14 +23,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <splitter split-orientation="horizontal" split-proportion="0.30775937">
+=======
+    <splitter split-orientation="horizontal" split-proportion="0.4982382">
+>>>>>>> nav-functionality
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/PostFeed/Post/Post.js">
               <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
                 <state relative-caret-position="382">
                   <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+=======
+                <state relative-caret-position="60">
+                  <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="76" />
+>>>>>>> nav-functionality
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -34,9 +48,38 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/PostView/PostView.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="604">
+                  <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+<<<<<<< HEAD
+=======
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/components/Nav/Nav.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="30">
+                  <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/PostFeed/Post/Post.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="262">
+                  <caret line="45" column="1" lean-forward="true" selection-end-line="61" selection-end-column="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/PostFeed/PostFeed.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
+                <state relative-caret-position="330">
                   <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
@@ -45,6 +88,19 @@
               </provider>
             </entry>
           </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/containers/App.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1305">
+                  <caret line="66" column="30" lean-forward="true" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
+                  <folding>
+                    <element signature="e#0#41#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+>>>>>>> nav-functionality
         </leaf>
       </split-first>
       <split-second>
@@ -52,8 +108,13 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/TopicFeed/Topic/Topic.js">
               <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
                 <state>
                   <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+=======
+                <state relative-caret-position="120">
+                  <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+>>>>>>> nav-functionality
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -62,6 +123,7 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
             <entry file="file://$PROJECT_DIR$/src/components/TopicFeed/Topic/Topic.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="240">
@@ -75,6 +137,12 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="45">
                   <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="16" selection-end-column="7" />
+=======
+            <entry file="file://$PROJECT_DIR$/src/components/TopicFeed/TopicFeed.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="330">
+                  <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+>>>>>>> nav-functionality
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -82,13 +150,18 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/containers/App.js">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/components/PostView/PostView.js">
               <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
                 <state relative-caret-position="304">
                   <caret line="48" selection-start-line="48" selection-end-line="48" />
+=======
+                <state relative-caret-position="225">
+                  <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+>>>>>>> nav-functionality
                   <folding>
-                    <element signature="e#0#41#0" expanded="true" />
+                    <element signature="e#0#26#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -118,8 +191,12 @@
       <find>@media only screen</find>
       <find>TopicFeed/Top</find>
       <find>Carter One</find>
+<<<<<<< HEAD
       <find>In the project directory, you can run</find>
       <find>scripts</find>
+=======
+      <find>Topic</find>
+>>>>>>> nav-functionality
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/components/TopicFeed</dir>
@@ -144,12 +221,11 @@
         <option value="$PROJECT_DIR$/src/components/Topics/TopicFeed/TopicFeed.css" />
         <option value="$PROJECT_DIR$/src/components/Topics/TopicFeed/Topic/Topic.css" />
         <option value="$PROJECT_DIR$/src/components/Topics/TopicFeed/TopicFeed.js" />
-        <option value="$PROJECT_DIR$/src/components/TopicFeed/TopicFeed.js" />
-        <option value="$PROJECT_DIR$/src/components/TopicFeed/Topic/Topic.js" />
         <option value="$PROJECT_DIR$/src/components/PostFeed/PostFeed.js" />
         <option value="$PROJECT_DIR$/src/components/TopicFeed/Topic/Topic.css" />
         <option value="$PROJECT_DIR$/src/components/PostFeed/PostFeed.css" />
         <option value="$PROJECT_DIR$/src/components/PostFeed/Post/Post.css" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/components/Nav/Nav.css" />
         <option value="$PROJECT_DIR$/src/components/TopicFeed/TopicFeed.css" />
         <option value="$PROJECT_DIR$/src/components/PostView/PostView.css" />
@@ -159,12 +235,26 @@
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/index.js" />
+=======
+        <option value="$PROJECT_DIR$/src/components/TopicFeed/TopicFeed.css" />
+        <option value="$PROJECT_DIR$/src/components/PostFeed/Post/Post.js" />
+        <option value="$PROJECT_DIR$/src/containers/App.js" />
+        <option value="$PROJECT_DIR$/src/components/TopicFeed/TopicFeed.js" />
+        <option value="$PROJECT_DIR$/src/components/TopicFeed/Topic/Topic.js" />
+        <option value="$PROJECT_DIR$/src/components/PostView/PostView.js" />
+        <option value="$PROJECT_DIR$/src/components/PostView/PostView.css" />
+        <option value="$PROJECT_DIR$/src/components/Nav/Nav.css" />
+>>>>>>> nav-functionality
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
+<<<<<<< HEAD
     <option name="width" value="1135" />
+=======
+    <option name="width" value="1440" />
+>>>>>>> nav-functionality
     <option name="height" value="826" />
   </component>
   <component name="ProjectView">
@@ -184,6 +274,27 @@
               <item name="social-feed" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
+=======
+            <path>
+              <item name="social-feed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="social-feed" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="social-feed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="social-feed" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="social-feed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="social-feed" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="TopicFeed" type="462c0819:PsiDirectoryNode" />
+            </path>
+>>>>>>> nav-functionality
           </expand>
           <select />
         </subPane>
@@ -256,21 +367,36 @@
       <workItem from="1560906638600" duration="6150000" />
       <workItem from="1561084311395" duration="605000" />
       <workItem from="1561125358132" duration="2000" />
+<<<<<<< HEAD
       <workItem from="1561214403004" duration="1976000" />
+=======
+      <workItem from="1561417864147" duration="6636000" />
+>>>>>>> nav-functionality
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="71244000" />
+=======
+    <option name="totallyTimeSpent" value="80783000" />
+>>>>>>> nav-functionality
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="826" extended-state="6" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19168429" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
+=======
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="1" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="3" weight="0.25158563" />
+>>>>>>> nav-functionality
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -281,7 +407,11 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+<<<<<<< HEAD
       <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.39918256" />
+=======
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.12942779" />
+>>>>>>> nav-functionality
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -317,6 +447,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/components/PostFeed/Post/Post.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -328,6 +459,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="24" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+>>>>>>> nav-functionality
         </state>
       </provider>
     </entry>
@@ -341,15 +487,23 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/components/Nav/Nav.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="29" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/components/TopicFeed/TopicFeed.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+>>>>>>> nav-functionality
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/TopicFeed/TopicFeed.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state>
           <caret column="10" selection-start-column="10" selection-end-column="10" />
         </state>
@@ -359,32 +513,70 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="382">
           <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/PostFeed/PostFeed.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+=======
+        <state relative-caret-position="240">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/TopicFeed/Topic/Topic.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="120">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+>>>>>>> nav-functionality
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/components/PostFeed/PostFeed.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/components/TopicFeed/TopicFeed.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+>>>>>>> nav-functionality
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/PostFeed/PostFeed.css">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state>
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+=======
+        <state relative-caret-position="15">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/PostFeed/Post/Post.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="45" column="1" lean-forward="true" selection-end-line="61" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/PostFeed/PostFeed.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+>>>>>>> nav-functionality
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/components/TopicFeed/Topic/Topic.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -396,6 +588,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="16" selection-end-column="7" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/containers/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="66" column="30" lean-forward="true" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/PostFeed/Post/Post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="76" />
+>>>>>>> nav-functionality
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -404,8 +612,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/PostView/PostView.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="135">
           <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+=======
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+>>>>>>> nav-functionality
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -414,6 +627,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/PostView/PostView.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="15">
           <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
         </state>
@@ -460,6 +674,17 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+=======
+        <state relative-caret-position="604">
+          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Nav/Nav.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+>>>>>>> nav-functionality
         </state>
       </provider>
     </entry>

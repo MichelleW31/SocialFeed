@@ -13,7 +13,7 @@ const topicFeed = (props) => {
 
     //Slice array before mapping so that only 8 featured recipes show.
     let inRecipes = recArr.slice(0,8).map((recipe) =>{
-        return <Topic key={recipe.title} title={recipe.title} imgSrc={recipe.imgPath} />
+        return <Topic key={recipe.title} recipe={recipe} title={recipe.title} imgSrc={recipe.imgPath} incrementStep={props.incrementStep} showPost={props.showPost}/>
     });
 
     return (
