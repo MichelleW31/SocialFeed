@@ -5,8 +5,8 @@ class Topic extends React.Component {
     imgUrl = require(`../../../../src/images/${this.props.imgSrc}`);
 
     selectPost = () => {
-    this.props.incrementStep();
-        console.log(this);
+        this.props.incrementStep();
+        this.props.showPost(this.props.recipe);
     };
 
 

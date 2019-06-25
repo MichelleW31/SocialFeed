@@ -30,12 +30,19 @@ class App extends Component {
             {title: 'Macaroni', cooktime: '60 minutes', popularity: "6/10", level: "Hard", imgPath: "macaroni.jpg" },
             {title: 'Lettuce Wraps', cooktime: '90 minutes', popularity: "8/10", level: "Hard", imgPath: "lettuce-wraps.jpg" }
         ],
-        step: 0
+        step: 0,
+        post: {}
     };
 
     incrementStep = () => this.setState(() => ({step: 1}));
 
     back = () => this.setState(() => ({step: 0}));
+
+    showPost = (post) =>{
+        this.setState({
+            post: post
+        })
+    };
 
     stateManager = () => {
         const {step} = this.state;
@@ -43,7 +50,7 @@ class App extends Component {
             case 0:
                 return <PostFeed recipes={this.state.recipes}/>;
             case 1:
-                return <PostView back={this.back}/>;
+                return <PostView post={this.state.post} recipes={this.state.recipes} back={this.back}/>;
             default:
                 return <PostFeed recipes={this.state.recipes}/>;
         }
@@ -56,7 +63,8 @@ class App extends Component {
             <Nav />
             <TopicFeed
                 recipes={this.state.recipes}
-                incrementStep={this.incrementStep}/>
+                incrementStep={this.incrementStep}
+                showPost={this.showPost}/>
               {this.stateManager()}
           </>
         );
