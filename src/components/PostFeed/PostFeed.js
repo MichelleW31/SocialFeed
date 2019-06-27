@@ -11,7 +11,7 @@ const postfeed = (props) =>{
     let recArr = props.recipes;
     shuffle(recArr);
 
-    //Slice array before mapping so that only 8 featured recipes show.
+    //Maps through recipes and returns a post for each one.
     let inRecipes = recArr.map((recipe) =>{
         return <Post key={recipe.title} recipe={recipe} />
     });

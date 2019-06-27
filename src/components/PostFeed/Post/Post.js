@@ -1,8 +1,13 @@
 import React from 'react';
+import LikeSend from '../../LikeSend/LikeSend';
 import MyStyles from './Post.css';
 
 class Post extends React.Component {
     imgUrl = require(`../../../../src/images/${this.props.recipe.imgPath}`);
+
+    likePost = () =>{
+        console.log(this.props.recipe);
+    };
 
     render() {
         return(
@@ -18,8 +23,9 @@ class Post extends React.Component {
                 </div>
 
                 <div className={MyStyles.Sendoff}>
-                    <i className={MyStyles.fa_heart}></i>
-                    <i className={MyStyles.fa_paper_plane}></i>
+                    <LikeSend
+                        recipe={this.props.recipe}
+                        likePost={this.likePost}/>
                 </div>
 
                 <hr/>
