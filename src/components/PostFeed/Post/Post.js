@@ -6,7 +6,7 @@ class Post extends React.Component {
     imgUrl = require(`../../../../src/images/${this.props.recipe.imgPath}`);
 
     likePost = () =>{
-        console.log(this.props.recipe);
+        this.props.addLikes(this.props.recipe);
     };
 
     render() {

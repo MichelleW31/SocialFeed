@@ -3,6 +3,7 @@ import Nav from '../components/Nav/Nav';
 import TopicFeed from '../components/TopicFeed/TopicFeed';
 import PostFeed from '../components/PostFeed/PostFeed';
 import PostView from '../components/PostView/PostView';
+import Likes from '../components/Nav/Likes/Likes';
 
 
 
@@ -31,7 +32,8 @@ class App extends Component {
             {title: 'Lettuce Wraps', cooktime: '90 minutes', popularity: "8/10", level: "Hard", imgPath: "lettuce-wraps.jpg" }
         ],
         step: 0,
-        post: {}
+        post: {},
+        like: {}
     };
 
     incrementStep = () => this.setState(() => ({step: 1}));
@@ -44,15 +46,28 @@ class App extends Component {
         })
     };
 
+    likes = () =>{
+      this.setState(() => ({step: 2}));
+    };
+
+    addLikes = (like) => {
+      this.setState({
+        like: like
+      });
+
+    };
+
     stateManager = () => {
         const {step} = this.state;
         switch (step) {
             case 0:
-                return <PostFeed recipes={this.state.recipes}/>;
+                return <PostFeed recipes={this.state.recipes} like={this.state.like} addLikes={this.addLikes} />;
             case 1:
                 return <PostView post={this.state.post} recipes={this.state.recipes} back={this.back}/>;
+            case 2:
+                return <Likes back={this.back} like={this.state.like}/>;
             default:
-                return <PostFeed recipes={this.state.recipes}/>;
+                return <PostFeed recipes={this.state.recipes} like={this.state.like} addLikes={this.addLikes} />;
         }
     };
 
@@ -60,7 +75,8 @@ class App extends Component {
     render() {
         return (
           <>
-            <Nav />
+            <Nav
+              likes={this.likes}/>
             <TopicFeed
                 recipes={this.state.recipes}
                 incrementStep={this.incrementStep}

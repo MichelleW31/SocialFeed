@@ -8,12 +8,12 @@ const postfeed = (props) =>{
         return array.sort(() => Math.random() - 0.5);
     }
 
-    let recArr = props.recipes;
-    shuffle(recArr);
+    let recArr = [...props.recipes];
+    // shuffle(recArr);
 
     //Maps through recipes and returns a post for each one.
     let inRecipes = recArr.map((recipe) =>{
-        return <Post key={recipe.title} recipe={recipe} />
+        return <Post key={recipe.title} recipe={recipe} addLikes={props.addLikes} />
     });
 
 

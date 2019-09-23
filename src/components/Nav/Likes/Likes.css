@@ -1,0 +1,57 @@
+.Postview{
+    background: #f9f8f6;
+}
+
+.Back{
+    align-items: center;
+    background: #467e8d;
+    color: #fff;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+.Post{
+    margin-bottom: 10px;
+}
+
+.Copy{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 15px 15px;
+    padding-top: 18px;
+}
+
+.Title{
+    font-size: 17px;
+    font-weight: 700;
+
+}
+
+.Level{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.Time{
+    font-style: italic;
+    font-weight: 400;
+}
+
+.Image{
+    width: 100%;
+}
+
+.fa_angle_left{
+    font-size: 1.2rem;
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    padding-right: 5px;
+}
