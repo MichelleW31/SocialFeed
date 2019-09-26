@@ -33,7 +33,7 @@ class App extends Component {
         ],
         step: 0,
         post: {},
-        like: {}
+        like: []
     };
 
     incrementStep = () => this.setState(() => ({step: 1}));
@@ -51,8 +51,12 @@ class App extends Component {
     };
 
     addLikes = (like) => {
+      //like parameter is making it to here. Getting lost in this component
+      const likeArray = this.state.like;
+      likeArray.push(like);
+      console.log('likeArray', likeArray);
       this.setState({
-        like: like
+        like: likeArray
       });
 
     };
