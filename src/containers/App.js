@@ -71,7 +71,7 @@ class App extends Component {
             case 2:
                 return <Likes back={this.back} like={this.state.like}/>;
             default:
-                return <PostFeed recipes={this.state.recipes} like={this.state.like} addLikes={this.addLikes} />;
+                return <PostFeed recipes={this.state.recipes} like={this.state.like} addLikes={this.addLikes} step={this.state.step} />;
         }
     };
 

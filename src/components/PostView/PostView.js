@@ -5,7 +5,6 @@ const postview = (props) => {
 
     let chosenTopic = props.post;
     let imgUrl = require(`../../images/${chosenTopic.imgPath}`);
-    // console.log('From postview', chosenTopic);
 
     return (
         <div className={MyStyles.Postview}>
