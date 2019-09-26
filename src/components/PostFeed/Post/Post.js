@@ -4,18 +4,7 @@ import MyStyles from './Post.css';
 
 class Post extends React.Component {
 
-    imagePath = () => {
-      let imgUrl;
-
-      if(this.props.step === 2) {
-        imgUrl = require(`../../../images/${this.props.recipe.imgPath}`);
-      } else {
-        imgUrl = require(`../../../images/${this.props.recipe.imgPath}`);
-      }
-
-      return imgUrl
-    };
-
+    imgUrl = require(`../../../images/${this.props.recipe.imgPath}`);
 
     likePost = () =>{
         this.props.addLikes(this.props.recipe);
@@ -31,7 +20,7 @@ class Post extends React.Component {
                 </div>
 
                 <div className={MyStyles.ImageDiv}>
-                    <img className={MyStyles.Image} src={this.imagePath()} alt=""/>
+                    <img className={MyStyles.Image} src={this.imgUrl} alt=""/>
                 </div>
 
                 <div className={MyStyles.Sendoff}>

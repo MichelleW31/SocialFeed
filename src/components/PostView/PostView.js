@@ -1,10 +1,9 @@
 import React from 'react';
 import MyStyles from './PostView.css';
+import Post from "../PostFeed/Post/Post";
 
 const postview = (props) => {
-
     let chosenTopic = props.post;
-    let imgUrl = require(`../../images/${chosenTopic.imgPath}`);
 
     return (
         <div className={MyStyles.Postview}>
@@ -13,20 +12,9 @@ const postview = (props) => {
                 <p onClick={props.back}>Back to recipes</p>
             </div>
 
-            <div className={MyStyles.Copy}>
-                <h3 className={MyStyles.Title}>{chosenTopic.title}</h3>
-                <h4 className={MyStyles.Level}>Level: {chosenTopic.level}</h4>
-                <h5 className={MyStyles.Time}>Cook time: {chosenTopic.cooktime}</h5>
-            </div>
-
-            <div className={MyStyles.ImageDiv}>
-                <img className={MyStyles.Image} src={imgUrl} alt=""/>
-            </div>
-
-            <div className={MyStyles.Sendoff}>
-                <i className={MyStyles.fa_heart}></i>
-                <i className={MyStyles.fa_paper_plane}></i>
-            </div>
+            <Post key={chosenTopic.title}
+                  recipe={chosenTopic}
+                  addLikes={props.addLikes} />
         </div>
     )
 };

@@ -65,13 +65,13 @@ class App extends Component {
         const {step} = this.state;
         switch (step) {
             case 0:
-                return <PostFeed recipes={this.state.recipes} like={this.state.like} addLikes={this.addLikes} step={this.state.step} />;
+                return <PostFeed recipes={this.state.recipes} like={this.state.like} addLikes={this.addLikes} />;
             case 1:
                 return <PostView post={this.state.post} recipes={this.state.recipes} back={this.back}/>;
             case 2:
                 return <Likes back={this.back} like={this.state.like}/>;
             default:
-                return <PostFeed recipes={this.state.recipes} like={this.state.like} addLikes={this.addLikes} step={this.state.step} />;
+                return <PostFeed recipes={this.state.recipes} like={this.state.like} addLikes={this.addLikes} />;
         }
     };
 
