@@ -3,7 +3,7 @@ import LikeSend from '../../LikeSend/LikeSend';
 import MyStyles from './Post.css';
 
 class Post extends React.Component {
-    imgUrl = require(`../../../../src/images/${this.props.recipe.imgPath}`);
+    imgUrl = require(`../../../images/${this.props.recipe.imgPath}`);
 
     likePost = () =>{
         this.props.addLikes(this.props.recipe);

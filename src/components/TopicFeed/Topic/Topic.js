@@ -2,7 +2,7 @@ import React from 'react';
 import MyStyles from './Topic.css';
 
 class Topic extends React.Component {
-    imgUrl = require(`../../../../src/images/${this.props.imgSrc}`);
+    imgUrl = require(`../../../images/${this.props.imgSrc}`);
 
     selectPost = () => {
         this.props.incrementStep();

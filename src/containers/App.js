@@ -54,7 +54,7 @@ class App extends Component {
       //like parameter is making it to here. Getting lost in this component
       const likeArray = this.state.like;
       likeArray.push(like);
-      console.log('likeArray', likeArray);
+      console.log('like image path',like.imgPath);
       this.setState({
         like: likeArray
       });
@@ -65,7 +65,7 @@ class App extends Component {
         const {step} = this.state;
         switch (step) {
             case 0:
-                return <PostFeed recipes={this.state.recipes} like={this.state.like} addLikes={this.addLikes} />;
+                return <PostFeed recipes={this.state.recipes} like={this.state.like} addLikes={this.addLikes} step={this.state.step} />;
             case 1:
                 return <PostView post={this.state.post} recipes={this.state.recipes} back={this.back}/>;
             case 2:

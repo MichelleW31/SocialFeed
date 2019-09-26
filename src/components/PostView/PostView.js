@@ -4,7 +4,7 @@ import MyStyles from './PostView.css';
 const postview = (props) => {
 
     let chosenTopic = props.post;
-    let imgUrl = require(`../../../src/images/${chosenTopic.imgPath}`);
+    let imgUrl = require(`../../images/${chosenTopic.imgPath}`);
     // console.log('From postview', chosenTopic);
 
     return (
