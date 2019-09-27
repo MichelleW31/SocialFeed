@@ -50,25 +50,21 @@ class App extends Component {
       this.setState(() => ({step: 2}));
     };
 
-    //Refactor me please
+
     toggleLikes = (like) => {
       const likeArray = [...this.state.like];
 
-      if(!like.liked){
+      if(!like.liked) {
         likeArray.push(like);
         this.setState({
           like: likeArray
         });
-      }else{
-        likeArray.map((recipe, i)=>{
-          //i feel like this can be refactored
-          if(like.title === recipe.title){
-            likeArray.splice(i,1);
-            this.setState({
-              like:likeArray
-            })
-          }
-        });
+      } else {
+          let index = likeArray.indexOf(likeArray.find(recipe => recipe.title === like.title));
+            likeArray.splice(index, 1);
+          this.setState({
+            like:likeArray
+          })
       }
     };
 
