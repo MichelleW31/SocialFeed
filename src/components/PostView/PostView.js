@@ -14,7 +14,7 @@ const postview = (props) => {
 
             <Post key={chosenTopic.title}
                   recipe={chosenTopic}
-                  addLikes={props.addLikes} />
+                  toggleLikes={props.toggleLikes} />
         </div>
     )
 };

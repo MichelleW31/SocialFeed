@@ -7,7 +7,7 @@ class Post extends React.Component {
     imgUrl = require(`../../../images/${this.props.recipe.imgPath}`);
 
     likePost = () =>{
-      this.props.addLikes(this.props.recipe);
+      this.props.toggleLikes(this.props.recipe);
       this.props.recipe.liked = !this.props.recipe.liked;
     };
 

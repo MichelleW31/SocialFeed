@@ -10,7 +10,7 @@ const likes = (props) => {
   if(likeArray.length > 0){
 
     layout = likeArray.map((like) => {
-      return <Post key={like.title} recipe={like} addLikes={props.addLikes} />
+      return <Post key={like.title} recipe={like} toggleLikes={props.toggleLikes} />
     });
 
   }

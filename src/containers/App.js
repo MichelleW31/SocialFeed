@@ -51,19 +51,19 @@ class App extends Component {
     };
 
     //Refactor me please
-    addLikes = (like) => {
+    toggleLikes = (like) => {
       const likeArray = [...this.state.like];
+
       if(!like.liked){
         likeArray.push(like);
-        console.log('added', likeArray);
         this.setState({
           like: likeArray
         });
       }else{
         likeArray.map((recipe, i)=>{
+          //i feel like this can be refactored
           if(like.title === recipe.title){
-            likeArray.splice(i);
-            console.log('removed',likeArray);
+            likeArray.splice(i,1);
             this.setState({
               like:likeArray
             })
@@ -76,13 +76,13 @@ class App extends Component {
         const {step} = this.state;
         switch (step) {
             case 0:
-                return <PostFeed recipes={this.state.recipes} addLikes={this.addLikes} />;
+                return <PostFeed recipes={this.state.recipes} toggleLikes={this.toggleLikes} />;
             case 1:
-                return <PostView post={this.state.post} recipes={this.state.recipes} back={this.back} addLikes={this.addLikes}/>;
+                return <PostView post={this.state.post} recipes={this.state.recipes} back={this.back} toggleLikes={this.toggleLikes}/>;
             case 2:
-                return <Likes back={this.back} like={this.state.like} addLikes={this.addLikes}/>;
+                return <Likes back={this.back} like={this.state.like} toggleLikes={this.toggleLikes}/>;
             default:
-                return <PostFeed recipes={this.state.recipes} addLikes={this.addLikes} />;
+                return <PostFeed recipes={this.state.recipes} toggleLikes={this.toggleLikes} />;
         }
     };
 
