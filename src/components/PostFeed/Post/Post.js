@@ -7,8 +7,8 @@ class Post extends React.Component {
     imgUrl = require(`../../../images/${this.props.recipe.imgPath}`);
 
     likePost = () =>{
-        this.props.addLikes(this.props.recipe);
-        this.props.recipe.liked = !this.props.recipe.liked;
+      this.props.addLikes(this.props.recipe);
+      this.props.recipe.liked = !this.props.recipe.liked;
     };
 
     render() {
@@ -27,8 +27,7 @@ class Post extends React.Component {
                 <div className={MyStyles.Sendoff}>
                     <LikeSend
                         recipe={this.props.recipe}
-                        likePost={this.likePost}
-                        recipe_liked={this.props.recipe.liked}/>
+                        likePost={this.likePost}/>
                 </div>
 
                 <hr/>

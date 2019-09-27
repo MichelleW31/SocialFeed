@@ -10,8 +10,8 @@ import Likes from '../components/Nav/Likes/Likes';
 class App extends Component {
     state = {
         recipes: [
-            {title: 'Sloppy Joes', cooktime: '30 minutes', popularity: "7/10", level: "Easy" , imgPath: "sloppy-joe.jpg", liked:false },
-            {title: 'Stir Fry', cooktime: '60 minutes', popularity: "10/10", level: "Easy", imgPath: "stir-fry.jpg", liked:false },
+            {title: 'Sloppy Joes', cooktime: '30 minutes', popularity: "7/10", level: "Easy" , imgPath: "sloppy-joe.jpg", liked: false },
+            {title: 'Stir Fry', cooktime: '60 minutes', popularity: "10/10", level: "Easy", imgPath: "stir-fry.jpg", liked: false },
             {title: 'Quesadillas', cooktime: '40 minutes', popularity: "10/10", level: "Easy", imgPath: "quesadilla.jpg" , liked:false},
             {title: 'Nachos', cooktime: '30 minutes', popularity: "8/10", level: "Easy", imgPath: "nachos.jpg", liked:false },
             {title: 'Lentil Soup', cooktime: '60 minutes', popularity: "8/10", level: "Medium", imgPath: "lentil-soup.jpg", liked:false },
@@ -50,26 +50,39 @@ class App extends Component {
       this.setState(() => ({step: 2}));
     };
 
+    //Refactor me please
     addLikes = (like) => {
       const likeArray = [...this.state.like];
-      likeArray.push(like);
-      this.setState({
-        like: likeArray,
-      });
-
+      if(!like.liked){
+        likeArray.push(like);
+        console.log('added', likeArray);
+        this.setState({
+          like: likeArray
+        });
+      }else{
+        likeArray.map((recipe, i)=>{
+          if(like.title === recipe.title){
+            likeArray.splice(i);
+            console.log('removed',likeArray);
+            this.setState({
+              like:likeArray
+            })
+          }
+        });
+      }
     };
 
     stateManager = () => {
         const {step} = this.state;
         switch (step) {
             case 0:
-                return <PostFeed recipes={this.state.recipes} like={this.state.like} addLikes={this.addLikes} recipe_liked={this.state.recipe_liked}/>;
+                return <PostFeed recipes={this.state.recipes} addLikes={this.addLikes} />;
             case 1:
                 return <PostView post={this.state.post} recipes={this.state.recipes} back={this.back} addLikes={this.addLikes}/>;
             case 2:
                 return <Likes back={this.back} like={this.state.like} addLikes={this.addLikes}/>;
             default:
-                return <PostFeed recipes={this.state.recipes} like={this.state.like} addLikes={this.addLikes} />;
+                return <PostFeed recipes={this.state.recipes} addLikes={this.addLikes} />;
         }
     };
 

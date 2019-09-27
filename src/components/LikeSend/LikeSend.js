@@ -4,7 +4,7 @@ import MyStyles from './LikeSend.css';
 const likesend = (props) => {
     let heart_class = MyStyles.fa_heart_open;
 
-    if(props.recipe_liked){
+    if(props.recipe.liked){
       heart_class = MyStyles.fa_heart_solid;
     }
 

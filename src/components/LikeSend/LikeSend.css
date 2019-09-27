@@ -11,7 +11,7 @@
 }
 
 .fa_heart_solid, .fa_heart_open{
-    padding-right: 20px
+    padding-right: 20px;
 }
 
 .fa_heart_solid:before, .fa_heart_open:before{
