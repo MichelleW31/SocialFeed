@@ -13,7 +13,7 @@ const postfeed = (props) =>{
 
     //Maps through recipes and returns a post for each one.
     let inRecipes = recArr.map((recipe) =>{
-        return <Post key={recipe.title} recipe={recipe} addLikes={props.addLikes} step={props.step} />
+        return <Post key={recipe.title} recipe={recipe} addLikes={props.addLikes} step={props.step} recipe_liked={props.recipe_liked}/>
     });
 
 

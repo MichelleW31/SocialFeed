@@ -1,4 +1,4 @@
-.fa_heart, .fa_paper_plane{
+.fa_heart_solid, .fa_heart_open, .fa_paper_plane{
     font-size: 1.2rem;
     font-weight: 900;
     font-family: "Font Awesome 5 Free";
@@ -10,14 +10,18 @@
     line-height: 1;
 }
 
-.fa_heart{
+.fa_heart_solid, .fa_heart_open{
     padding-right: 20px
 }
 
-.fa_heart:before{
+.fa_heart_solid:before, .fa_heart_open:before{
     content: "\f004";
 }
 
 .fa_paper_plane:before{
     content: "\f1d8";
+}
+
+.fa_heart_open{
+    font-weight: 400;
 }

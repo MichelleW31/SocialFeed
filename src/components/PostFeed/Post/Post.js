@@ -8,6 +8,7 @@ class Post extends React.Component {
 
     likePost = () =>{
         this.props.addLikes(this.props.recipe);
+        this.props.recipe.liked = !this.props.recipe.liked;
     };
 
     render() {
@@ -26,7 +27,8 @@ class Post extends React.Component {
                 <div className={MyStyles.Sendoff}>
                     <LikeSend
                         recipe={this.props.recipe}
-                        likePost={this.likePost}/>
+                        likePost={this.likePost}
+                        recipe_liked={this.props.recipe.liked}/>
                 </div>
 
                 <hr/>
