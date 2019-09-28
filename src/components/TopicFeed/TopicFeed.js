@@ -9,7 +9,7 @@ const topicFeed = (props) => {
     }
 
     let recArr = [...props.recipes];
-    shuffle(recArr);
+    // shuffle(recArr);
 
     //Slice array before mapping so that only 8 featured recipes show.
     let inRecipes = recArr.slice(0,8).map((recipe) =>{

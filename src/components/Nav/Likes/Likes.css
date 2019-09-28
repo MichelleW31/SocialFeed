@@ -23,26 +23,6 @@
     padding-top: 18px;
 }
 
-.Title{
-    font-size: 17px;
-    font-weight: 700;
-
-}
-
-.Level{
-    font-size: 15px;
-    font-weight: 500;
-}
-
-.Time{
-    font-style: italic;
-    font-weight: 400;
-}
-
-.Image{
-    width: 100%;
-}
-
 .fa_angle_left{
     font-size: 1.2rem;
     font-weight: 900;
@@ -54,4 +34,31 @@
     text-rendering: auto;
     line-height: 1;
     padding-right: 5px;
+}
+
+.fa_angle_left{
+    padding-right: 5px;
+}
+
+.fa_angle_left:before{
+    content: "\f104";
+}
+
+.Title{
+    background: #e2e2e2;
+    color: #467e8d;
+    font-family: 'Carter One', cursive;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.NoLikes{
+    background: #f9f8f6;
+    padding: 200px 0;
+    font-size: 22px;
+    text-align: center;
+}
+
+.Likes{
+
 }
